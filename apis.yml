@@ -1,7 +1,29 @@
 aid: asaak
 name: Asaak
-description: Asaak is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Asaak is an East African fintech company, headquartered in Kampala, Uganda,
+  that provides asset financing and working capital to small businesses and
+  individual entrepreneurs who are underserved by traditional banks. Its core
+  products are loans for boda boda motorcycles, fuel, and smartphones, delivered
+  through a mobile-first application with a simple four-step flow of apply,
+  qualify, receive financing, and repay to build credit. Asaak operates branches
+  across Uganda (Kampala, Jinja, Mukono, Matugga, Nabbingo, Fort Portal, Gulu,
+  and Soroti) and is a 500 Global portfolio company. It runs a backend admin
+  platform at api.asaak.net and a Wix-hosted marketing site that exposes a live
+  Model Context Protocol (MCP) endpoint for agentic access to public site
+  content. Asaak does not currently publish a public developer API or OpenAPI.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://asaak-ireland-static.s3.amazonaws.com/img/logo_full.png
 url: https://raw.githubusercontent.com/api-evangelist/asaak/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fintech
+- Lending
+- Asset Financing
+- Financial Services
+- Working Capital
+- Africa
+- Uganda
+- Mobility
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,25 @@ maintainers:
 common:
 - type: Website
   url: https://asaak.com
+- type: SignUp
+  url: https://app.asaak.com/
+- type: Blog
+  url: https://www.asaak.com/newsroom/categories/blog
+- type: Support
+  url: https://www.asaak.com/faq
+- type: TermsOfService
+  url: https://api.asaak.net/v0/app/terms/
+- type: PrivacyPolicy
+  url: https://api.asaak.net/v0/app/privacy/
+- type: MCPServer
+  name: Asaak Site MCP (Wix)
+  url: mcp/asaak-mcp.yml
+- type: LLMsTxt
+  url: llms/asaak-llms.txt
+- type: DomainSecurity
+  url: security/asaak-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
