@@ -12,6 +12,17 @@ description: >-
   platform at api.asaak.net and a Wix-hosted marketing site that exposes a live
   Model Context Protocol (MCP) endpoint for agentic access to public site
   content. Asaak does not currently publish a public developer API or OpenAPI.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
