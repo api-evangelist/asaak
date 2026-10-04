@@ -50,7 +50,7 @@ tags:
 - Fintech
 - Lending
 - Asset Financing
-- Financial-Services
+- Financial Services
 - Working Capital
 - Africa
 - Uganda
@@ -65,6 +65,7 @@ tags_raw:
 - Africa
 - Uganda
 - Mobility
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
